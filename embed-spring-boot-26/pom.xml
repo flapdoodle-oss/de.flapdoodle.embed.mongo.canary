@@ -31,7 +31,7 @@
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
             <artifactId>de.flapdoodle.embed.mongo.spring</artifactId>
-            <version>1.0.2-spring26x</version>
+            <version>1.1.0-spring26x</version>
             <scope>test</scope>
         </dependency>
 
