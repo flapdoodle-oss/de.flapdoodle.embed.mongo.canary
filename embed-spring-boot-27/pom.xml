@@ -19,7 +19,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <embedded.mongo.version>3.4.3</embedded.mongo.version>
+        <embedded.mongo.version>4.0.2-beta</embedded.mongo.version>
     </properties>
 
     <dependencies>
@@ -31,8 +31,8 @@
         </dependency>
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo.spring</artifactId>
-            <version>1.1.0-spring27x</version>
+            <artifactId>de.flapdoodle.embed.mongo.spring27x</artifactId>
+            <version>4.0.2-beta</version>
             <scope>test</scope>
         </dependency>
 
