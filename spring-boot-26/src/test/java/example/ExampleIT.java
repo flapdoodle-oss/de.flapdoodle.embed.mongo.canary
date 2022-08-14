@@ -8,11 +8,19 @@ import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import java.util.ArrayList;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 @DataMongoTest
 @ExtendWith(SpringExtension.class)
 class ExampleIT {
     @Test
     void example(@Autowired final MongoTemplate mongoTemplate) {
         Assertions.assertNotNull(mongoTemplate.getDb());
+        ArrayList<String> collectionNames = mongoTemplate.getDb()
+          .listCollectionNames()
+          .into(new ArrayList<>());
+        assertTrue(collectionNames.isEmpty());
     }
 }
