@@ -108,5 +108,6 @@
     <modules>
         <module>embed-spring-boot-26</module>
         <module>embed-spring-boot-27</module>
+        <module>embed-spring-boot-30</module>
     </modules>
 </project>
