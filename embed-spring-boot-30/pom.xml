@@ -29,8 +29,8 @@
         </dependency>
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo.spring27x</artifactId>
-            <version>4.0.4-beta</version>
+            <artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
+            <version>4.0.0-beta-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
         <dependency>
