@@ -4,5 +4,5 @@ embedded mongodb integration canary project
 ## test embedded mongodb version
 
 ```
-./mvnw verify -Dembedded.mongo.version=3.4.2
+./mvnw verify -Dembedded.mongo.version=4.5.1
 ```
