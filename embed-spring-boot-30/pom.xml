@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>17</java.version>
-        <embedded.mongo.version>4.6.1</embedded.mongo.version>
+        <embedded.mongo.version>4.6.2</embedded.mongo.version>
     </properties>
 
     <dependencies>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
             <artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
-            <version>4.6.0</version>
+            <version>4.6.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
