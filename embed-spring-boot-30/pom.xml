@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>17</java.version>
-        <embedded.mongo.version>4.12.0</embedded.mongo.version>
+        <embedded.mongo.version>4.14.0</embedded.mongo.version>
     </properties>
 
     <dependencies>
