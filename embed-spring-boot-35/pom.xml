@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.2</version>
+        <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>de.flapdoodle.embed</groupId>
-    <artifactId>de.flapdoodle.embed.mongo.canary.embed-spring-boot-31</artifactId>
-    <name>Embedded Spring Boot 3.1.x Canary</name>
+    <artifactId>de.flapdoodle.embed.mongo.canary.embed-spring-boot-35</artifactId>
+    <name>Embedded Spring Boot 3.5.x Canary</name>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

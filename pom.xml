@@ -116,5 +116,6 @@
         <module>embed-spring-boot-30</module>
         <module>embed-spring-boot-31</module>
         <module>embed-spring-boot-33</module>
+        <module>embed-spring-boot-35</module>
     </modules>
 </project>

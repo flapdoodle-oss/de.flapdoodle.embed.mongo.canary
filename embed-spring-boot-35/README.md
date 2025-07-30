@@ -1,0 +1,2 @@
+# run
+`./mvnw clean verify`
