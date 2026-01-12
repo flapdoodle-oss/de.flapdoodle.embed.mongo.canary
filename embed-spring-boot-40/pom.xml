@@ -30,7 +30,7 @@
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
             <artifactId>de.flapdoodle.embed.mongo.spring4x</artifactId>
-            <version>4.22.0</version>
+            <version>4.22.1-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
         <dependency>
