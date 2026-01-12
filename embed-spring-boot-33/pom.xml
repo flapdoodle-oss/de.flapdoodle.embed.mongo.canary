@@ -29,7 +29,7 @@
         </dependency>
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
+            <artifactId>de.flapdoodle.embed.mongo.spring3x</artifactId>
             <version>4.23.0</version>
             <scope>test</scope>
         </dependency>
