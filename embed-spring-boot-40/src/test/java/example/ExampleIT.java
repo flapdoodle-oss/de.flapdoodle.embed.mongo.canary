@@ -18,12 +18,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(SpringExtension.class)
 class ExampleIT {
     @Test
-    void example(@Autowired final MongoTemplate mongoTemplate, @Autowired final ApplicationContext applicationContext) {
+    void example(@Autowired final MongoTemplate mongoTemplate) {
         Assertions.assertNotNull(mongoTemplate.getDb());
         ArrayList<String> collectionNames = mongoTemplate.getDb()
           .listCollectionNames()
           .into(new ArrayList<>());
         assertThat(collectionNames).isEmpty();
+    }
+
+    @Test
+    void checkBeans(@Autowired final ApplicationContext applicationContext) {
         assertThat(applicationContext.getBeanNamesForType(MongodWrapper.class)).isNotEmpty();
         assertThat(applicationContext.getBean(MongodWrapper.class)).isNotNull();
     }
